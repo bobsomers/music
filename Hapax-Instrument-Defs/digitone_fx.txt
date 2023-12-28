@@ -1,0 +1,68 @@
+VERSION 1
+
+TRACKNAME Digitone FX
+TYPE POLY
+OUTPORT NULL
+OUTCHAN NULL
+INPORT NONE
+INCHAN NULL
+MAXRATE NULL
+
+[CC]
+# [C] Chorus Parameters (FX Channel)
+70 C_HiPass
+71 C_Width
+14 C_MixVol
+
+# [D] Delay Parameters (FX Channel)
+72:DEFAULT=32 D_HiPass
+73:DEFAULT=96 D_LoPass
+20:DEFAULT=110 D_MixVol
+
+# [R] Reverb Parameters (FX Channel)
+74:DEFAULT=48 R_DecTim
+75:DEFAULT=64 R_ShFreq
+76:DEFAULT=32 R_HiPass
+77:DEFAULT=96 R_LoPass
+20:DEFAULT=110 R_MixVol
+
+# [M] Mixer Parameters (FX Channel)
+83:DEFAULT=1 M_Dual
+78:DEFAULT=64 M_PanL
+79:DEFAULT=64 M_PanR
+95:DEFAULT=100 M_PatVol
+[/CC]
+
+[CC_PAIR]
+# [C] Chorus Parameters (FX Channel)
+3:35 C_Depth
+9:41 C_Speed
+12:44 C_Delay
+13:45 C_Reverb
+
+# [D] Delay Parameters (FX Channel)
+15:47 D_DelTim
+16:48 D_PinPon
+17:49 D_StroWd
+18:50 D_Feedbk
+19:51 D_Reverb
+
+# [R] Reverb Parameters (FX Channel)
+21:53 R_Predel
+22:54 R_ShGain
+
+# [M] Mixer Parameters (FX Channel)
+24:56 M_InLVol
+25:57 M_InRVol
+26:58 M_ChorsL
+30:62 M_ChorsR
+27:59 M_DelayL
+31:63 M_DelayR
+28:60 M_RevrbL
+82:32 M_RevrbR
+29:61 M_OvrDrv
+[/CC_PAIR]
+
+[COMMENT]
+Elektron Digiton FX
+[/COMMENT]

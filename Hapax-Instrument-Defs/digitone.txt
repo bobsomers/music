@@ -1,0 +1,121 @@
+VERSION 1
+
+TRACKNAME Digitone
+TYPE POLY
+OUTPORT NULL
+OUTCHAN NULL
+INPORT NONE
+INCHAN NULL
+MAXRATE NULL
+
+[CC]
+# [Trk] Track Parameters
+94:DEFAULT=0 Trk_Mute
+95:DEFAULT=100 Trk_Lvl
+
+# [T] Trig Parameters
+3:DEFAULT=60 T_Root
+4:DEFAULT=100 T_Velo
+5:DEFAULT=14 T_Len
+13:DEFAULT=1 T_FiltTr         # TODO: Not working
+14:DEFAULT=1 T_LFOTr          # TODO: Not working
+15:DEFAULT=40 T_PrtoTm
+16:DEFAULT=63 T_PrtoOn        # TODO: Not working
+
+# [S] Synth Parameters (SYN1)
+90:DEFAULT=0 S_Algo
+91:DEFAULT=3 S_RatioC
+92:DEFAULT=3 S_RatioA
+
+# [S] Synth Parameters (SYN2)
+75:DEFAULT=0 S_AEnvAt
+76:DEFAULT=32 S_AEnvDy
+77:DEFAULT=127 S_AEnvEd
+78:DEFAULT=0 S_ALevel
+79:DEFAULT=0 S_BEnvAt
+80:DEFAULT=32 S_BEnvDy
+81:DEFAULT=127 S_BEnvEd
+82:DEFAULT=0 S_BLevel
+83:DEFAULT=0 S_ADelay
+84:DEFAULT=1 S_ATrig
+85:DEFAULT=1 S_AEnRst
+86:DEFAULT=0 S_BDelay
+87:DEFAULT=1 S_BTrig
+88:DEFAULT=1 S_BEnRst
+89:DEFAULT=1 S_PhaRst
+
+# [F] Filter Parameters
+74:DEFAULT=1 F_Type
+70:DEFAULT=0 F_AtkTim
+71:DEFAULT=64 F_DcyTim
+72:DEFAULT=0 F_SusLvl
+73:DEFAULT=64 F_RelTim
+43:DEFAULT=0 F_EnvDel
+
+# [A] Amp Parameters
+104:DEFAULT=8 A_AtkTim
+105:DEFAULT=32 A_DcyTim
+106:DEFAULT=96 A_SusLvl
+107:DEFAULT=24 A_RelTim
+102:DEFAULT=1 A_EnvRst
+
+# [L1] LFO 1 Parameters
+108:DEFAULT=5 L1_Mult
+109:DEFAULT=64 L1_Fade
+110:DEFAULT=0 L1_Dest
+111:DEFAULT=0 L1_Wave
+112:DEFAULT=0 L1_Phase
+113:DEFAULT=0 L1_TrgMd
+
+# [L2] LFO 2 Parameters
+114:DEFAULT=5 L2_Mult
+115:DEFAULT=64 L2_Fade
+116:DEFAULT=0 L2_Dest
+117:DEFAULT=0 L2_Wave
+118:DEFAULT=0 L2_Phase
+119:DEFAULT=0 L2_TrgMd
+[/CC]
+
+[CC_PAIR]
+# [S] Synth Parameters (SYN1)
+16:48 S_RatioB                 # Granularity (Hapax?)
+17:49 S_Harmon                 # Granularity issues (Hapax?)
+18:50:DEFAULT=0 S_Detune
+19:51:DEFAULT=0 S_Feedbk
+20:52:DEFAULT=0 S_Mix
+
+# [F] Filter Parameters
+23:55:DEFAULT=16255 F_Freq
+24:56:DEFAULT=0 F_Reson
+25:57:DEFAULT=8192 F_EnvDep
+26:58:DEFAULT=0 F_Base
+27:59:DEFAULT=16383 F_Width
+
+# [A] Amp Parameters
+9:41:DEFAULT=0 A_OvrDrv
+10:42:DEFAULT=8192 A_Pan
+7:39:DEFAULT=14080 A_Volume
+12:44:DEFAULT=0 A_Chorus
+13:45:DEFAULT=0 A_Delay
+14:46:DEFAULT=0 A_Reverb
+
+# [L1] LFO 1 Parameters
+28:60:DEFAULT=12288 L1_Speed
+29:61:DEFAULT=8192 L1_Depth
+
+# [L2] LFO 2 Parameters
+30:62:DEFAULT=12288 L2_Speed
+31:63:DEFAULT=8192 L2_Depth
+[/CC_PAIR]
+
+[NRPN]
+# [S] Synth Parameters (SYN1)
+1:95:7:DEFAULT=64 S_COffst
+1:96:7:DEFAULT=64 S_AOffst
+1:97:7:DEFAULT=64 S_B1Offs
+1:98:7:DEFAULT=64 S_B2Offs
+[/NRPN]
+
+[COMMENT]
+Elektron Digitone
+[/COMMENT]
