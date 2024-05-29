@@ -64,5 +64,5 @@ MAXRATE NULL
 [/CC_PAIR]
 
 [COMMENT]
-Elektron Digiton FX
+Digitone FX
 [/COMMENT]

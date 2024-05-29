@@ -117,5 +117,5 @@ MAXRATE NULL
 [/NRPN]
 
 [COMMENT]
-Elektron Digitone
+Digitone
 [/COMMENT]

@@ -53,5 +53,5 @@ MAXRATE NULL
 [/CC]
 
 [COMMENT]
-Elektron Digitakt FX
+Digitakt FX
 [/COMMENT]

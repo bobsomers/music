@@ -1,6 +1,6 @@
 VERSION 1
 
-TRACKNAME Blackbox Samples
+TRACKNAME BB Pad
 TYPE POLY
 OUTPORT NULL
 OUTCHAN NULL
@@ -12,5 +12,5 @@ MAXRATE NULL
 [/CC]
 
 [COMMENT]
-1010music Blackbox (Samples)
+Blackbox (Pad)
 [/COMMENT]

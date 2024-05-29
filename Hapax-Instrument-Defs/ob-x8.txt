@@ -79,5 +79,5 @@ MAXRATE NULL
 [/CC]
 
 [COMMENT]
-Oberheim OB-X8
+OB-X8
 [/COMMENT]

@@ -94,5 +94,5 @@ MAXRATE NULL
 [/CC_PAIR]
 
 [COMMENT]
-Elektron Digitakt
+Digitakt
 [/COMMENT]
